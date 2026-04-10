@@ -31,8 +31,7 @@ $(document).ready(function () {
   $("#yes").html(textConfig.text6);
   function firstQuestion() {
     $(".content").hide();
-    var audio = new Audio("sound/bg-music.mp3");
-    audio.play();
+    
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
@@ -42,7 +41,10 @@ $(document).ready(function () {
       background: '#fff url("img/iput-bg.jpg")',
       imageAlt: "Custom image",
     }).then(function () {
+      var audio = new Audio("sound/bg-music.mp3");
+      audio.play();
       $(".content").show(200);
+      
     });
   }
 

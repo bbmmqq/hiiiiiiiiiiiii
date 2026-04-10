@@ -141,7 +141,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://www.facebook.com/messages/e2ee/t/6920742444651849";
+            window.location = "https://www.messenger.com/e2ee/t/6920742444651849";
           },
         });
       }

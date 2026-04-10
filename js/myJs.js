@@ -29,10 +29,10 @@ $(document).ready(function () {
   $("#text4").html(textConfig.text4);
   $("#no").html(textConfig.text5);
   $("#yes").html(textConfig.text6);
-    var audio = new Audio("sound/bg-music.mp3");
-    audio.play();
   function firstQuestion() {
     $(".content").hide();
+    var audio = new Audio("sound/bg-music.mp3");
+    audio.play();
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,

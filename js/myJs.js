@@ -141,7 +141,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://www.facebook.com/buiminhquan.0706/";
+            window.location = "https://www.youtube.com/watch?v=poGyHfrJ_uo&list=PLniuYvnK-UyXyzsUE-DpZRD7R9gnHHVlI";
           },
         });
       }
